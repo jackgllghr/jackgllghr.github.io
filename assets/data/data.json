@@ -22,10 +22,6 @@
         },
         {
           "type": "text",
-          "content": "Originally developed in AngularJS and Ionic, and migrated to Angular 5 and Ionic 3 by myself, the app makes extensive use of RxJS (ReactiveX), following an event driven programming model. IMS MAXIMS, the company's main enterprise offering, offers a REST API which we used to populate data."
-        },
-        {
-          "type": "text",
           "content": "It is currently live in Taunton & Somerset NHS Foundation Trust, as well as Wye Valley NHS Trust. Check out a video from Taunton here: "
         },
         {
