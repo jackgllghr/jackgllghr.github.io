@@ -13,8 +13,18 @@
           "content": "mHealth (Mobile Health) is a iOS, Android and Web application designed to aid clinicians and nursing with patient management. It allows the users to do a plethora of tasks, including record vital signs for a patient, do bed management, discharge planning, managing surgical theatres and much more."
         },
         {
+          "type":"screenshot",
+          "sourceUrl":"assets/img/mhealth_ipad.png",
+          "content":"Our Patient Bedside View gives a high-level view of the patient's care"
+        },
+        {
           "type": "text",
           "content": "I led development on this app for over 3 years with a team of 5 UI engineers, taking it from the R&D stage to production. I contributed to the development, design, deployment and planning."
+        },
+        {
+          "type":"screenshot",
+          "sourceUrl":"assets/img/mhealth_demo.mp4",
+          "content":"Recording vital signs is just one of the many features available"
         },
         {
           "type": "text",
@@ -26,7 +36,7 @@
         },
         {
           "type": "video",
-          "sourceUrl": "https://dms.licdn.com/playlist/C4D05AQFEh9vxPht1Og/feedshare-captions-thumbnails-dualWrite-inhouse-mp4_h264_aac_3300k/0?e=1579906800&v=beta&t=IWb_CSb_zpPxa7GFmlQ1KS_XPyW0rdKpGapcGs807pg"
+          "sourceUrl": "assets/img/mhealth_taunton.mp4"
         },
         {
           "type": "summary"
@@ -49,15 +59,12 @@
         },
         {
           "type": "screenshot",
-          "sourceUrl": ""
+          "sourceUrl": "assets/img/clinical_noting_screenshot.png",
+          "content":"Clinicians can record various types of information for an appointment"
         },
         {
           "type": "text",
           "content": "It is built in Angular 8, using Angular Material components, with state management being handled by NGRX. It takes advantages of the latest Angular and NGRX features, such as using the Ivy renderer, taking advantage of NGRX's new factory framework to make generic reducers/actions/selectors, and using the latest Angular CDK."
-        },
-        {
-          "type": "screenshot",
-          "sourceUrl": ""
         },
         {
           "type": "text",
@@ -91,7 +98,7 @@
 
         {
           "type": "text",
-          "content": "Ultimately, the pitch was unsuccessful due to a lack of funding, however the aesthetic design was used in an alternative pitch, for placing stickers with the relevant information. These are currently located in many public places throughout the north-west of Ireland."
+          "content": "Ultimately, the pitch was unsuccessful due to a lack of funding, however the aesthetic design was used in an alternative informational sticker campaign. These are currently located in many public places throughout the north-west of Ireland."
         },
         {
           "type": "image",
@@ -110,6 +117,7 @@
       "category": "App",
       "iconUrl": "assets/img/coplink_icon.jpg",
       "bannerUrl": "assets/img/coplink.mp4",
+      "link":"https://apkpure.com/ibm-coplink/com.ibm.i2.coplink",
       "body": [
         {
           "type": "text",
@@ -126,7 +134,7 @@
 
         {
           "type": "screenshot",
-          "content": "I worked primarily on the Andorid app.",
+          "content": "I worked primarily on the Android app.",
           "sourceUrl": "assets/img/coplink_login.jpg"
         },
 
@@ -142,7 +150,7 @@
         },
         {
           "type": "text",
-          "content": "It has since been removed from the App Store due to acquisitions."
+          "content": "It has since been removed from the App Store but is available on mirrors. "
         },
         {
           "type": "summary"
@@ -152,11 +160,11 @@
     {
       "id": 8,
       "title": "Access Earth",
-      "subtitle": "",
+      "subtitle": "Know more. Do more. Live more.",
       "category": "App",
       "link": "http://access.earth",
       "iconUrl": "assets/img/access_earth_icon.png",
-      "bannerUrl": "assets/img/access_earth.png",
+      "bannerUrl": "assets/img/access_earth_1.png",
       "body": [
         {
           "type": "text",
@@ -207,15 +215,20 @@
     {
       "id": 7,
       "title": "IBM Intelligent Operations Center",
-      "subtitle": "",
+      "subtitle": "Providing Operational Insight",
       "category": "Enterprise",
+      "link":"https://www.ibm.com/uk-en/marketplace/city-insights",
+      "bannerUrl": "assets/img/ioc.png",
       "body": [
         {
           "type": "text",
           "content": "Some content here"
+        },
+        {
+          "type":"youtube",
+          "sourceUrl":"https://www.youtube-nocookie.com/embed/3yVe1DL2qjs?autoplay=1&hl=en-uk&iv_load_policy=3&listType=playlist&origin=https%3A%2F%2Fwww.ibm.com&rel=0&showinfo=1&controls=1&modestbranding=0&theme=dark&enablejsapi=1&widgetid=1"
         }
-      ],
-      "bannerUrl": "assets/img/coplink.jpg"
+      ]
     },
     {
       "id": 3,
