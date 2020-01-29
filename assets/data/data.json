@@ -52,6 +52,7 @@
       "iconUrl": "assets/img/clinical_noting_icon.png",
       "link": "http://www.imsmaxims.com",
       "bannerUrl": "assets/img/clinical_noting.jpg",
+      "cardType":"banner-top",
       "body": [
         {
           "type": "text",
@@ -117,7 +118,7 @@
       "category": "App",
       "iconUrl": "assets/img/coplink_icon.jpg",
       "bannerUrl": "assets/img/coplink.mp4",
-      "showBanner":true,
+      "cardType":"banner",
       "link":"https://apkpure.com/ibm-coplink/com.ibm.i2.coplink",
       "body": [
         {
@@ -236,7 +237,7 @@
       "title": "Oracle Worldwide Product Translation Group",
       "subtitle": "Providing i18n for the Oracle Suite",
       "category": "QA",
-      "showBanner":true,
+      "cardType":"banner",
       "body": [
         {
           "type": "text",
