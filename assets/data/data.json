@@ -1,5 +1,38 @@
 {
   "items": [
+    
+    {
+      "id": 5,
+      "title": "Clinical Noting",
+      "subtitle": "Towards a paperless future",
+      "category": "App",
+      "iconUrl": "assets/img/clinical_noting_icon.png",
+      "link": "http://www.imsmaxims.com",
+      "bannerUrl": "assets/img/clinical_noting.jpg",
+      "cardType":"banner-top",
+      "body": [
+        {
+          "type": "text",
+          "content": "The Clinical Noting app is a web application designed to assist clinicians with note taking during patient appointments. It is launched from IMS MAXIMS, the main enterprise offering from IMS, with further developments to launch it as a standalone iOS, Android and web application in the near future."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/clinical_noting_screenshot.png",
+          "content":"Clinicians can record various types of information for an appointment"
+        },
+        {
+          "type": "text",
+          "content": "It is built in Angular 8, using Angular Material components, with state management being handled by NGRX. It takes advantages of the latest Angular and NGRX features, such as using the Ivy renderer, taking advantage of NGRX's new factory framework to make generic reducers/actions/selectors, and using the latest Angular CDK."
+        },
+        {
+          "type": "text",
+          "content": "It is due for release in Q1 2020."
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
     {
       "id": 4,
       "title": "mHealth",
@@ -44,39 +77,6 @@
       ],
       "bannerUrl": "assets/img/mhealth.mp4"
     },
-    {
-      "id": 5,
-      "title": "Clinical Noting",
-      "subtitle": "Towards a paperless future",
-      "category": "App",
-      "iconUrl": "assets/img/clinical_noting_icon.png",
-      "link": "http://www.imsmaxims.com",
-      "bannerUrl": "assets/img/clinical_noting.jpg",
-      "cardType":"banner-top",
-      "body": [
-        {
-          "type": "text",
-          "content": "The Clinical Noting app is a web application designed to assist clinicians with note taking during patient appointments. It is launched from IMS MAXIMS, the main enterprise offering from IMS, with further developments to launch it as a standalone iOS, Android and web application in the near future."
-        },
-        {
-          "type": "screenshot",
-          "sourceUrl": "assets/img/clinical_noting_screenshot.png",
-          "content":"Clinicians can record various types of information for an appointment"
-        },
-        {
-          "type": "text",
-          "content": "It is built in Angular 8, using Angular Material components, with state management being handled by NGRX. It takes advantages of the latest Angular and NGRX features, such as using the Ivy renderer, taking advantage of NGRX's new factory framework to make generic reducers/actions/selectors, and using the latest Angular CDK."
-        },
-        {
-          "type": "text",
-          "content": "It is due for release in Q1 2020."
-        },
-        {
-          "type": "summary"
-        }
-      ]
-    },
-
     {
       "id": 2,
       "title": "We Can Help",
