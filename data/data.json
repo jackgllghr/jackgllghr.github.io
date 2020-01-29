@@ -117,6 +117,7 @@
       "category": "App",
       "iconUrl": "assets/img/coplink_icon.jpg",
       "bannerUrl": "assets/img/coplink.mp4",
+      "showBanner":true,
       "link":"https://apkpure.com/ibm-coplink/com.ibm.i2.coplink",
       "body": [
         {
@@ -232,16 +233,17 @@
     },
     {
       "id": 3,
-      "title": "Worldwide Product Translation Group",
+      "title": "Oracle Worldwide Product Translation Group",
       "subtitle": "Providing i18n for the Oracle Suite",
       "category": "QA",
+      "showBanner":true,
       "body": [
         {
           "type": "text",
           "content": "Some content here"
         }
       ],
-      "bannerUrl": "assets/img/oracle.jpg"
+      "bannerUrl": "assets/img/oracle.png"
     }
   ]
 }
