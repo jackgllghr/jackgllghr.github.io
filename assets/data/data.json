@@ -266,7 +266,7 @@
         },
         {
           "type":"youtube",
-          "sourceUrl":"https://www.youtube-nocookie.com/embed/3yVe1DL2qjs?autoplay=1&hl=en-uk&iv_load_policy=3&listType=playlist&origin=https%3A%2F%2Fwww.ibm.com&rel=0&showinfo=1&controls=1&modestbranding=0&theme=dark&enablejsapi=1&widgetid=1"
+          "sourceUrl":"https://www.youtube-nocookie.com/embed/3yVe1DL2qjs?autoplay=0&hl=en-uk&iv_load_policy=3&listType=playlist&origin=https%3A%2F%2Fwww.ibm.com&rel=0&showinfo=1&controls=1&modestbranding=0&theme=dark&enablejsapi=1&widgetid=1"
         },
         {
           "type":"text",
