@@ -278,14 +278,14 @@ function CardContainerComponent_app_card_11_ng_container_2_div_2_Template(rf, ct
 var _c26 = [1, "body-screenshot-container"];
 var _c27 = [1, "screenshot"];
 var _c28 = [3, "src", 4, "ngIf"];
-var _c29 = ["autoplay", "", "loop", "", "playsinline", "", 3, "muted", 4, "ngIf"];
+var _c29 = ["autoplay", "", "loop", "", "playsinline", "", "onloadedmetadata", "this.muted=true", "oncanplay", "this.play()", 3, "muted", 4, "ngIf"];
 function CardContainerComponent_app_card_11_ng_container_2_div_3_img_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", _c23);
 } if (rf & 2) {
     var item_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", item_r11.sourceUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
-var _c30 = ["autoplay", "", "loop", "", "playsinline", "", 3, "muted"];
+var _c30 = ["autoplay", "", "loop", "", "playsinline", "", "onloadedmetadata", "this.muted=true", "oncanplay", "this.play()", 3, "muted"];
 var _c31 = ["type", "video/mp4", 3, "src"];
 function CardContainerComponent_app_card_11_ng_container_2_div_3_video_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "video", _c30);
@@ -792,7 +792,7 @@ __webpack_require__.r(__webpack_exports__);
 var _c0 = [1, "container"];
 var _c1 = ["class", "close-button", 3, "click", 4, "ngIf"];
 var _c2 = [1, "header"];
-var _c3 = ["class", "banner-video", "autoplay", "", "loop", "", "muted", "", "playsinline", "", 4, "ngIf"];
+var _c3 = ["class", "banner-video", "autoplay", "", "loop", "", "muted", "", "playsinline", "", "onloadedmetadata", "this.muted=true", "oncanplay", "this.play()", 4, "ngIf"];
 var _c4 = [4, "ngIf"];
 var _c5 = ["class", "banner", 3, "top", 4, "ngIf"];
 var _c6 = [1, "content"];
@@ -807,7 +807,7 @@ function CardComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "div", _c9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-var _c10 = ["autoplay", "", "loop", "", "muted", "", "playsinline", "", 1, "banner-video"];
+var _c10 = ["autoplay", "", "loop", "", "muted", "", "playsinline", "", "onloadedmetadata", "this.muted=true", "oncanplay", "this.play()", 1, "banner-video"];
 var _c11 = ["type", "video/mp4", 3, "src"];
 function CardComponent_video_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "video", _c10);
