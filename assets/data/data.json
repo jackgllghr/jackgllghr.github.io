@@ -88,12 +88,12 @@
       "body": [
         {
           "type": "text",
-          "content": "We Can Help was a iOS and Android app built for my cousin, as a pitch to the HSE (Health Service Executive of Ireland) for giving people easy access to various health and safety services available in Ireland. It was an Ionic 3 / Angular 5 app that took advantage of Google Maps API, text-to-speech for  an accident and emergency feature, and SMS integration."
+          "content": "We Can Help was a iOS and Android app built for as a pitch to the HSE (Health Service Executive of Ireland) for giving people easy access to various health and safety services available in Ireland. It was an Ionic 3 / Angular 5 app that took advantage of Google Maps API, text-to-speech for  an accident and emergency feature, and SMS integration."
         },
 
         {
           "type": "screenshot",
-          "content": "Designed to be approachable",
+          "content": "It was designed to be approachable to a wide audience",
           "sourceUrl": "assets/img/wecanhelp_animated.mp4"
         },
 
@@ -131,18 +131,18 @@
         },
         {
           "type": "text",
-          "content": "I led development on the Android app, built natively with no specific framework. I ported this over from an IBM Worklight hybrid app. Developments included using the Google Maps API for the situational awareness feature, building the search screens generically to minimise duplicated UI elements and logic, and using the native camera APIs to facilitate server-side facial recognition."
+          "content": "I led development on the Android app, built natively with no specific framework, and ported over from an IBM Worklight hybrid app. Developments included using the Google Maps API for the situational awareness feature, building the search screens generically to minimise duplicated UI elements and logic, and using the native camera APIs to facilitate server-side facial recognition."
         },
 
         {
           "type": "screenshot",
-          "content": "I worked primarily on the Android app.",
+          "content": "Working primarily on the Android app, I got extensive experience in native Android APIs",
           "sourceUrl": "assets/img/coplink_login.jpg"
         },
 
         {
           "type": "text",
-          "content": "It was live in the San Bernardino Police Department, and was used by officers in the event which kicked off one of the highest profile tech stories of 2016 (Apple - FBI Encryption Dispute)."
+          "content": "It was live in the San Bernardino Police Department, and was used by officers in the event which kicked off one of the <a href='https://www.npr.org/sections/alltechconsidered/2016/12/03/504130977/a-year-after-san-bernardino-and-apple-fbi-where-are-we-on-encryption'>highest profile tech stories of 2016</a> (Apple - FBI Encryption Dispute)."
         },
 
         {
@@ -200,20 +200,58 @@
         }
       ]
     },
+    {
+      "id": 11,
+      "title": "GameDevelopers.ie",
+      "subtitle": "Supporting local game developers",
+      "category": "Web",
+      "bannerUrl": "assets/img/gamedevelopers.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "GameDevelopers.ie is a volunteer-run portal for developers in the video game industry in Ireland. It offers visitors the latest news and stories from the national game development scene, with guest posts from many of the developers in Ireland."
+        },
 
+        {
+          "type":"screenshot",
+          "sourceUrl":"assets/img/gamedevelopers_screenshot.png",
+          "content":"The site has been active for over a decade and contains a large library of articles"
+        },
+       
+        {
+          "type": "text",
+          "content": "I currently volunteer and support the team with technical assistance. The website was a legacy Wordpress installation with many plugins added over time to add functionality. My work involves upgrading the website whilst maintaining compatibility, investigating new features that would assist the writing team, and support in event of an issue."
+        }
+      ]
+    },
     {
       "id": 6,
       "title": "IBM Citizen Collaboration",
       "subtitle": "Enabling citizens to assist local governments",
       "category": "App",
+      "bannerUrl": "assets/img/coplink.jpg",
       "body": [
         {
           "type": "text",
-          "content": "Some content here"
+          "content": "The IBM Intelligent Operations Center for Citizen Collaboration application is designed to improve communication between cities and their citizens about non-emergency city matters. IBM Intelligent Operations Center for Citizen Collaboration supports a rich set of communication channels, providing citizens with anywhere or anytime access to their channels of choice."
+        },
+        {
+          "type":"text",
+          "content":"The app was built in IBM Worklight, a set of tools that provided push notifications,federated identity management and CLI tools. The underlying frontend framework was an extension of Dojo, which allowed use of libraries developed across IBM. I developed features such as photo uploading, image galleries and customisable user profiles."
+        },
+        {
+          "type":"screenshot",
+          "sourceUrl":"assets/img/ibm_citizen_collab.jpg",
+          "content":"IBM Worklight was later rebranded as IBM MobileFirst"
+        },
+        {
+          "type":"text",
+          "content":"I worked on the Citizen Collaboration app as the lead developer for 6 months until the project was cancelled."
         }
-      ],
-      "bannerUrl": "assets/img/coplink.jpg"
+      ]
+
     },
+    
     {
       "id": 7,
       "title": "IBM Intelligent Operations Center",
@@ -224,11 +262,19 @@
       "body": [
         {
           "type": "text",
-          "content": "Some content here"
+          "content": "The IBM Intelligent Operations Center provided city officials with a tool that offered data visualisation, deep analytics and real time collaboration. This allowed them to plan for growth, prepare for problems, and coordinate and manage response efforts."
         },
         {
           "type":"youtube",
           "sourceUrl":"https://www.youtube-nocookie.com/embed/3yVe1DL2qjs?autoplay=1&hl=en-uk&iv_load_policy=3&listType=playlist&origin=https%3A%2F%2Fwww.ibm.com&rel=0&showinfo=1&controls=1&modestbranding=0&theme=dark&enablejsapi=1&widgetid=1"
+        },
+        {
+          "type":"text",
+          "content":"The IOC is built on a stack of Dojo, Java EE and IBM Websphere. I worked across the full stack, building new UI elements and working on business logic such as integrating with a SMS/email notification system. "
+        },
+        {
+          "type" :"text",
+          "content":"The application was architected to be very extendable, and was used as the basis for numerous other applictions in the Safer Planet Group. I built a prototype based on it that tracked police officers vital signs(with data pulled from the Apple Watch) and provided a high level visualisation for the control center team. This prototype was demoed at the IBM i2 Global Summit 2016."
         }
       ]
     },
@@ -238,13 +284,45 @@
       "subtitle": "Providing i18n for the Oracle Suite",
       "category": "QA",
       "cardType":"banner",
+      "bannerUrl": "assets/img/oracle.png",
       "body": [
         {
           "type": "text",
-          "content": "Some content here"
+          "content": "Oracle has a wide array of products on the market built by teams all around the globe. The <strong>Worldwide Product Translation Group</strong> was set up to optimise translation efforts across the company. This was achieved through an application called HyperHUB, that identified where to reuse existing translations and suggested new strings. This massively cut down on localisation costs for the company, with savings in the millions."
+        },
+
+        {
+          "type": "text",
+          "content": "I provided QA for HyperHUB and the various supporting tools. This involved developing Perl scripts for automated testing, manual testing, writing test cases and working with the development team to maintain quality in the product. I also carried out full compatibility testing in Windows 8 "
+        },
+        {
+          "type": "text",
+          "content": "I worked here for a 13-month internship between my university studies. For my efforts, I was nominated for the WPTG Student of the Year internal award."
         }
-      ],
-      "bannerUrl": "assets/img/oracle.png"
+
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Donegal Websites",
+      "subtitle": "Building for local businesses",
+      "category": "Web",
+      "bannerUrl": "assets/img/donegal_websites.jpg",
+      "body": [
+        {
+          "type": "text",
+          "content": "Donegal Websites was a local business providing web solutions for small to medium businesses in County Donegal, Ireland. We provided solutions that ranged from simple brochure sites to full e-commerce solutions."
+        },
+        {
+          "type":"screenshot",
+          "sourceUrl":"assets/img/donegal_websites_screenshot.png",
+          "content":"We developed sites for many local sports clubs, including my local GAA team."
+        },
+        {
+          "type": "text",
+          "content": "I worked across the full-stack during my time at Donegal Websites. We mainly worked in a LAMP(Linux, Apache, MySQL, PHP) environment, using Wordpress as the foundation of many of our sites, however we offered many custom solutions tailored to each clients needs. Hosting was also provided, which we handled directly."
+        }
+      ]
     }
   ]
 }
