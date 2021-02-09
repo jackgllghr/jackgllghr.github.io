@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  padding: 0;\n  margin: 0;\n  position: fixed;\n  overflow: hidden;\n  background: white;\n}\n@media (prefers-color-scheme: dark) {\n  html, body {\n    background: black;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrcGVyc29uYWwvRGV2ZWxvcG1lbnQvYXBwLXN0b3JlLWN2L3NyYy9zdHlsZXMuc2NzcyIsInNyYy9zdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw4RUFBQTtBQUVBO0VBQWEsVUFBQTtFQUFZLFNBQUE7RUFBVyxlQUFBO0VBQWlCLGdCQUFBO0VBQWtCLGlCQUFBO0FDS3ZFO0FESkE7RUFDSTtJQUNJLGlCQUFBO0VDT047QUFDRiIsImZpbGUiOiJzcmMvc3R5bGVzLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5cbmh0bWwsIGJvZHkgeyBwYWRkaW5nOiAwOyBtYXJnaW46IDA7IHBvc2l0aW9uOiBmaXhlZDsgb3ZlcmZsb3c6IGhpZGRlbjsgYmFja2dyb3VuZCA6IHdoaXRlO30gXG5AbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSB7XG4gICAgaHRtbCwgYm9keXtcbiAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgfVxufSIsIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbmh0bWwsIGJvZHkge1xuICBwYWRkaW5nOiAwO1xuICBtYXJnaW46IDA7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgYmFja2dyb3VuZDogd2hpdGU7XG59XG5cbkBtZWRpYSAocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIHtcbiAgaHRtbCwgYm9keSB7XG4gICAgYmFja2dyb3VuZDogYmxhY2s7XG4gIH1cbn0iXX0= */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  padding: 0;\n  margin: 0;\n  position: fixed;\n  overflow: hidden;\n  background: white;\n}\n@media (prefers-color-scheme: dark) {\n  html, body {\n    background: black;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrZ2FsbGFnaGVyL0RldmVsb3BtZW50L2FwcC1zdG9yZS9zcmMvc3R5bGVzLnNjc3MiLCJzcmMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsOEVBQUE7QUFFQTtFQUFhLFVBQUE7RUFBWSxTQUFBO0VBQVcsZUFBQTtFQUFpQixnQkFBQTtFQUFrQixpQkFBQTtBQ0t2RTtBREpBO0VBQ0k7SUFDSSxpQkFBQTtFQ09OO0FBQ0YiLCJmaWxlIjoic3JjL3N0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuXG5odG1sLCBib2R5IHsgcGFkZGluZzogMDsgbWFyZ2luOiAwOyBwb3NpdGlvbjogZml4ZWQ7IG92ZXJmbG93OiBoaWRkZW47IGJhY2tncm91bmQgOiB3aGl0ZTt9IFxuQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykge1xuICAgIGh0bWwsIGJvZHl7XG4gICAgICAgIGJhY2tncm91bmQ6IGJsYWNrO1xuICAgIH1cbn0iLCIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5odG1sLCBib2R5IHtcbiAgcGFkZGluZzogMDtcbiAgbWFyZ2luOiAwO1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJhY2tncm91bmQ6IHdoaXRlO1xufVxuXG5AbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSB7XG4gIGh0bWwsIGJvZHkge1xuICAgIGJhY2tncm91bmQ6IGJsYWNrO1xuICB9XG59Il19 */", '', '']]
 
 /***/ }),
 
@@ -338,7 +338,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jackpersonal/Development/app-store-cv/src/styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! /Users/jackgallagher/Development/app-store/src/styles.scss */"./src/styles.scss");
 
 
 /***/ })
