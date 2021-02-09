@@ -493,10 +493,12 @@ var CardContainerComponent = /** @class */ (function () {
         return this.selectedId == id;
     };
     CardContainerComponent.prototype.selectCard = function (id) {
+        window.analytics.page(this.cards.find(function (card) { return card.id == id; }).title);
         this.selectedId = id;
         this.calculatePositions();
     };
     CardContainerComponent.prototype.deselectCard = function () {
+        window.analytics.track('Deselected Card');
         this.selectedId = null;
         this.calculatePositions();
     };
