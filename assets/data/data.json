@@ -1,5 +1,43 @@
 {
-    "items": [
+    "items": [{
+      "id": 13,
+      "title": "Who are you?",
+      "subtitle": "Getting to know you",
+      "category": "Developer",
+      "iconUrl": "assets/img/dropchef-icon.png",
+      "link": "https://dropchef.com/app/",
+      "bannerUrl": "assets/img/dropchef-banner.png",
+      "body": [{
+              "type": "text",
+              "content": "Founded in 2015, DropChef delivers tailored healthy meal kits with measured, locally sourced ingredients to households throughout Ireland. By following easy-to-use recipes, users cook healthy meal options with minimal waste and no fear of forgetting vital ingredients."
+          },
+          {
+              "type": "youtube",
+              "content": "Our latest explainer advertisement",
+              "sourceUrl": "https://www.youtube.com/embed/20i_5VCPwR8?controls=0"
+          },
+          {
+              "type": "text",
+              "content": "I built the app in React Native, with state management handled using Redux. React Native Elements provides the UI components, as the goal is to provide a web build of the application using React Native Web. We use OneSignal to handle our push notifications, (which integrates well with many CRM systems allowing us to tailor our messaging) as well as provide lovely full-screen in-app messages and carousels, for tutorials, announcements and more."
+          },
+          {
+              "type": "screenshot",
+              "sourceUrl": "assets/img/dropchef-demo.mp4",
+              "content": "The app allows users to make their weekly DropChef order, as well as manage their account, quickly and conveniently."
+          },
+          {
+              "type": "text",
+              "content": "To accompany the app, I also built a API Gateway that provides a safe intermediary between the app and WooCommerce CMS and our various other data sources. This gateway is built using NestJS, Swagger, Bull, Redis and integrates with a few AWS services, namely DynamoDB, SNS, CloudWatch, and is deployed to AWS ECS as a Docker container."
+          },
+          {
+              "type": "text",
+              "content": "It is was initially released in August 2021, and is continually being updated."
+          },
+          {
+              "type": "summary"
+          }
+      ]
+  },
   {
             "id": 12,
             "title": "DropChef",
@@ -15,7 +53,7 @@
                 {
                     "type": "youtube",
                     "content": "Our latest explainer advertisement",
-                    "sourceUrl": "https://www.youtube-nocookie.com/embed/20i_5VCPwR8?controls=0"
+                    "sourceUrl": "https://www.youtube.com/embed/20i_5VCPwR8?controls=0"
                 },
                 {
                     "type": "text",
@@ -176,7 +214,7 @@
                 {
                     "type": "youtube",
                     "content": "Coplink in action",
-                    "sourceUrl": "https://www.youtube-nocookie.com/embed/-MEqDy_a4v4?controls=0"
+                    "sourceUrl": "https://www.youtube.com/embed/-MEqDy_a4v4?controls=0"
                 },
                 {
                     "type": "text",
@@ -284,7 +322,7 @@
                 },
                 {
                     "type": "youtube",
-                    "sourceUrl": "https://www.youtube-nocookie.com/embed/wmgRSW0DwVY"
+                    "sourceUrl": "https://www.youtube.com/embed/wmgRSW0DwVY"
                 },
                 {
                     "type": "text",
