@@ -1,380 +1,424 @@
 {
-    "items": [{
+  "items": [
+    {
+      "id": 14,
+      "iconUrl": "assets/img/me.jpg",
+      "link": "https://www.linkedin.com/in/jackgllghr/",
+      "bannerUrl": "assets/img/hello.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "Hi, I'm Jack. I specialize in developing software solutions and leading teams within the medical industry that enhance patient outcomes. With extensive experience leading agile software development teams, I have successfully brought numerous complex applications to market, all compliant with necessary regulatory standards."
+        },
+        {
+          "type": "text",
+          "content": "I'm passionate about leveraging technology to make a meaningful impact on healthcare. If you're interested in collaborating or learning more about my work, please feel free to reach out."
+        },
+        {
+          "type":"summary"
+        }
+      ]
+    },
+    {
       "id": 13,
-      "title": "Who are you?",
-      "subtitle": "Getting to know you",
-      "category": "Developer",
+      "title": "BlueBridge Technologies",
+      "subtitle": "Medical Device Software Development",
+      "category": "Full Stack",
+      "link": "https://bluebridgetechnologies.com",
+      "iconUrl": "assets/img/bbt_logo.png",
+      "bannerUrl": "assets/img/bbt_banner1.jpg",
+      "cardType":"banner",
+      "body": [
+        {
+          "type": "text",
+          "content": "In the dynamic and rapidly evolving world of medical and pharmaceutical software, I have had the incredible opportunity to lead talented teams at BlueBridge Technologies. Over the years, we have embarked on a variety of projects, each presenting its own set of challenges and rewards. I’d like to share some of the highlights of our journey and the innovative solutions we have developed."
+        },
+        {
+          "type": "youtube",
+          "sourceUrl": "https://player.vimeo.com/video/492133953?dnt=1&app_id=122963"
+        },
+        {
+          "type": "text",
+          "title": "Connecting Patients with Bluetooth Injectors",
+          "content": "One of our key projects involved developing applications that interface with Bluetooth injectors. This technology is a game-changer for patients requiring regular medication. By leveraging Bluetooth connectivity, we created user-friendly apps that ensure accurate dosing, monitor usage, and provide real-time data to healthcare providers. This not only improves patient compliance but also enhances the overall quality of care."
+        },
+        {
+          "type": "text",
+          "title": "Transforming Clinical Trial Data",
+          "content": "Clinical trials are the backbone of pharmaceutical advancements, and efficient data management is crucial for their success. We engineered robust data transformation pipelines designed to streamline data processing for clinical trials. These pipelines convert raw data into actionable insights, facilitating faster and more accurate trial outcomes. Our work in this area has significantly contributed to the efficiency and reliability of clinical research."
+        },
+        {
+          "type": "text",
+          "title": "Remote-Monitoring Solutions for Connected Devices",
+          "content": "In today’s healthcare landscape, remote monitoring has become essential. We developed remote-monitoring solutions that utilize connected devices to track patient health metrics in real-time. This technology allows healthcare providers to monitor patients' conditions continuously, intervene promptly when necessary, and provide personalized care. Our solutions have empowered patients to manage their health proactively while staying connected with their healthcare teams."
+        },
+        {
+          "type": "text",
+          "title": "",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "title": "Seamless Data Migrations with ETL Pipelines",
+          "content": "Data migration is a critical aspect of any healthcare software system. At BlueBridge Technologies, we designed and managed ETL (Extract, Transform, Load) pipelines to ensure smooth and efficient data migrations. These pipelines handle complex data transfers between systems, maintaining data integrity and minimizing downtime. Our expertise in ETL processes has enabled us to support various clients in upgrading and integrating their systems seamlessly."
+        },
+        {
+          "type": "text",
+          "content": "Leading these projects has been a rewarding experience, not only because of the technical challenges we overcame but also because of the tangible impact our solutions have had on patients and healthcare providers."
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "DropChef",
+      "subtitle": "Take the hassle & stress out of dinner",
+      "category": "Full Stack",
       "iconUrl": "assets/img/dropchef-icon.png",
       "link": "https://dropchef.com/app/",
       "bannerUrl": "assets/img/dropchef-banner.png",
-      "body": [{
-              "type": "text",
-              "content": "Founded in 2015, DropChef delivers tailored healthy meal kits with measured, locally sourced ingredients to households throughout Ireland. By following easy-to-use recipes, users cook healthy meal options with minimal waste and no fear of forgetting vital ingredients."
-          },
-          {
-              "type": "youtube",
-              "content": "Our latest explainer advertisement",
-              "sourceUrl": "https://www.youtube.com/embed/20i_5VCPwR8?controls=0"
-          },
-          {
-              "type": "text",
-              "content": "I built the app in React Native, with state management handled using Redux. React Native Elements provides the UI components, as the goal is to provide a web build of the application using React Native Web. We use OneSignal to handle our push notifications, (which integrates well with many CRM systems allowing us to tailor our messaging) as well as provide lovely full-screen in-app messages and carousels, for tutorials, announcements and more."
-          },
-          {
-              "type": "screenshot",
-              "sourceUrl": "assets/img/dropchef-demo.mp4",
-              "content": "The app allows users to make their weekly DropChef order, as well as manage their account, quickly and conveniently."
-          },
-          {
-              "type": "text",
-              "content": "To accompany the app, I also built a API Gateway that provides a safe intermediary between the app and WooCommerce CMS and our various other data sources. This gateway is built using NestJS, Swagger, Bull, Redis and integrates with a few AWS services, namely DynamoDB, SNS, CloudWatch, and is deployed to AWS ECS as a Docker container."
-          },
-          {
-              "type": "text",
-              "content": "It is was initially released in August 2021, and is continually being updated."
-          },
-          {
-              "type": "summary"
-          }
-      ]
-  },
-  {
-            "id": 12,
-            "title": "DropChef",
-            "subtitle": "Take the hassle & stress out of dinner",
-            "category": "App",
-            "iconUrl": "assets/img/dropchef-icon.png",
-            "link": "https://dropchef.com/app/",
-            "bannerUrl": "assets/img/dropchef-banner.png",
-            "body": [{
-                    "type": "text",
-                    "content": "Founded in 2015, DropChef delivers tailored healthy meal kits with measured, locally sourced ingredients to households throughout Ireland. By following easy-to-use recipes, users cook healthy meal options with minimal waste and no fear of forgetting vital ingredients."
-                },
-                {
-                    "type": "youtube",
-                    "content": "Our latest explainer advertisement",
-                    "sourceUrl": "https://www.youtube.com/embed/20i_5VCPwR8?controls=0"
-                },
-                {
-                    "type": "text",
-                    "content": "I built the app in React Native, with state management handled using Redux. React Native Elements provides the UI components, as the goal is to provide a web build of the application using React Native Web. We use OneSignal to handle our push notifications, (which integrates well with many CRM systems allowing us to tailor our messaging) as well as provide lovely full-screen in-app messages and carousels, for tutorials, announcements and more."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/dropchef-demo.mp4",
-                    "content": "The app allows users to make their weekly DropChef order, as well as manage their account, quickly and conveniently."
-                },
-                {
-                    "type": "text",
-                    "content": "To accompany the app, I also built a API Gateway that provides a safe intermediary between the app and WooCommerce CMS and our various other data sources. This gateway is built using NestJS, Swagger, Bull, Redis and integrates with a few AWS services, namely DynamoDB, SNS, CloudWatch, and is deployed to AWS ECS as a Docker container."
-                },
-                {
-                    "type": "text",
-                    "content": "It is was initially released in August 2021, and is continually being updated."
-                },
-                {
-                    "type": "summary"
-                }
-            ]
+      "body": [
+        {
+          "type": "text",
+          "content": "Founded in 2015, DropChef delivers tailored healthy meal kits with measured, locally sourced ingredients to households throughout Ireland. By following easy-to-use recipes, users cook healthy meal options with minimal waste and no fear of forgetting vital ingredients."
         },
         {
-            "id": 5,
-            "title": "Clinical Noting",
-            "subtitle": "Towards a paperless future",
-            "category": "App",
-            "iconUrl": "assets/img/clinical_noting_icon.png",
-            "link": "http://www.imsmaxims.com",
-            "bannerUrl": "assets/img/clinical_noting.jpg",
-            "cardType": "banner-top",
-            "body": [{
-                    "type": "text",
-                    "content": "The Clinical Noting app is a web application designed to assist clinicians with note taking during patient appointments. It is launched from IMS MAXIMS, the main enterprise offering from IMS, and also provided wrapped through Capacitor as a standalone iOS, Android and web application in the near future. Through a series of WebSockets connections and app deeplinking, the user can move seamlessly between our suite of applications, safely maintaining and validating patient in context for clinical safety."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/clinical_noting_screenshot.png",
-                    "content": "Clinicians can record various types of information for an appointment"
-                },
-                {
-                    "type": "text",
-                    "content": "It os built in Angular 8, using Angular Material components, with state management being handled by NGRX. It takes advantages of the latest Angular and NGRX features, such as using the Ivy renderer, taking advantage of NGRX's new factory framework to make generic reducers/actions/selectors, and using the latest Angular CDK."
-                },
-                {
-                    "type": "text",
-                    "content": "It was released in October 2020 and is updated regularly at present. "
-                },
-                {
-                    "type": "summary"
-                }
-            ]
+          "type": "youtube",
+          "content": "Our latest explainer advertisement",
+          "sourceUrl": "https://www.youtube.com/embed/20i_5VCPwR8?controls=0"
         },
         {
-            "id": 4,
-            "title": "mHealth",
-            "subtitle": "Assisting our nurses and clinicians",
-            "category": "App",
-            "iconUrl": "assets/img/mhealth_icon.png",
-            "link": "http://www.imsmaxims.com",
-            "body": [{
-                    "type": "text",
-                    "content": "mHealth (Mobile Health) is a iOS, Android and Web application designed to aid clinicians and nursing with patient management. It allows the users to do a plethora of tasks, including record vital signs for a patient, do bed management, discharge planning, managing surgical theatres and much more."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/mhealth_ipad.png",
-                    "content": "Our Patient Bedside View gives a high-level view of the patient's care"
-                },
-                {
-                    "type": "text",
-                    "content": "I led development on this app for over 4.5 years with a team of 5 UI engineers, taking it from the R&D stage to production. I contributed to the development, design, deployment and planning."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/mhealth_demo.mp4",
-                    "content": "Recording vital signs is just one of the many features available"
-                },
-                {
-                    "type": "text",
-                    "content": "Originally developed in AngularJS and Ionic, and migrated to Angular 5 and Ionic 3 by myself, the app makes extensive use of RxJS (ReactiveX), following an event driven programming model. IMS MAXIMS, the company's main enterprise offering, offers a REST API which we used to populate data."
-                },
-                {
-                    "type": "text",
-                    "content": "It is currently live in Taunton & Somerset NHS Foundation Trust, as well as Wye Valley NHS Trust. Check out a video from Taunton here: "
-                },
-                {
-                    "type": "video",
-                    "sourceUrl": "assets/img/mhealth_taunton.mp4"
-                },
-                {
-                    "type": "summary"
-                }
-            ],
-            "bannerUrl": "assets/img/mhealth.mp4"
+          "type": "text",
+          "content": "I built the app in React Native, with state management handled using Redux. React Native Elements provides the UI components, as the goal is to provide a web build of the application using React Native Web. We use OneSignal to handle our push notifications, (which integrates well with many CRM systems allowing us to tailor our messaging) as well as provide lovely full-screen in-app messages and carousels, for tutorials, announcements and more."
         },
         {
-            "id": 2,
-            "title": "We Can Help",
-            "subtitle": "Providing a helping hand when needed",
-            "category": "App",
-            "iconUrl": "assets/img/wecanhelp_icon.png",
-            "link": "http://jackgallagher.ie/WeCanHelp",
-            "bannerUrl": "assets/img/wecanhelp.png",
-            "body": [{
-                    "type": "text",
-                    "content": "We Can Help was a iOS and Android app built for as a pitch to the HSE (Health Service Executive of Ireland) for giving people easy access to various health and safety services available in Ireland. It was an Ionic 3 / Angular 5 app that took advantage of Google Maps API, text-to-speech for  an accident and emergency feature, and SMS integration."
-                },
-                {
-                    "type": "screenshot",
-                    "content": "It was designed to be approachable to a wide audience",
-                    "sourceUrl": "assets/img/wecanhelp_animated.mp4"
-                },
-                {
-                    "type": "text",
-                    "content": "Ultimately, the pitch was unsuccessful due to a lack of funding, however the aesthetic design was used in an alternative informational sticker campaign. These are currently located in many public places throughout the north-west of Ireland."
-                },
-                {
-                    "type": "image",
-                    "sourceUrl": "assets/img/wecanhelp_sticker.jpg"
-                },
-                {
-                    "type": "summary"
-                }
-            ]
+          "type": "screenshot",
+          "sourceUrl": "assets/img/dropchef-demo.mp4",
+          "content": "The app allows users to make their weekly DropChef order, as well as manage their account, quickly and conveniently."
         },
         {
-            "id": 1,
-            "title": "IBM Coplink",
-            "subtitle": "Facilitating Law Enforcement",
-            "category": "App",
-            "iconUrl": "assets/img/coplink_icon.jpg",
-            "bannerUrl": "assets/img/coplink.mp4",
-            "cardType": "banner",
-            "link": "https://apkpure.com/ibm-coplink/com.ibm.i2.coplink",
-            "body": [{
-                    "type": "text",
-                    "content": "IBM Coplink is an app to assist law enforcement officers while on the move. It is a iOS and Android application that allows the user to search the Coplink database to find people, vehicles, objects, organisations and relationships. The user can also use a map screen to find the same results for situational awareness. "
-                },
-                {
-                    "type": "image",
-                    "sourceUrl": "assets/img/coplink_search.jpg"
-                },
-                {
-                    "type": "text",
-                    "content": "I led development on the Android app, built natively with no specific framework, and ported over from an IBM Worklight hybrid app. Developments included using the Google Maps API for the situational awareness feature, building the search screens generically to minimise duplicated UI elements and logic, and using the native camera APIs to facilitate server-side facial recognition."
-                },
-                {
-                    "type": "screenshot",
-                    "content": "Working primarily on the Android app, I got extensive experience in native Android APIs",
-                    "sourceUrl": "assets/img/coplink_login.jpg"
-                },
-                {
-                    "type": "text",
-                    "content": "It was live in the San Bernardino Police Department, and was used by officers in the event which kicked off one of the <a href='https://www.npr.org/sections/alltechconsidered/2016/12/03/504130977/a-year-after-san-bernardino-and-apple-fbi-where-are-we-on-encryption'>highest profile tech stories of 2016</a> (Apple - FBI Encryption Dispute)."
-                },
-                {
-                    "type": "youtube",
-                    "content": "Coplink in action",
-                    "sourceUrl": "https://www.youtube.com/embed/-MEqDy_a4v4?controls=0"
-                },
-                {
-                    "type": "text",
-                    "content": "It has since been removed from the App Store but is available on mirrors. "
-                },
-                {
-                    "type": "summary"
-                }
-            ]
+          "type": "text",
+          "content": "To accompany the app, I also built a API Gateway that provides a safe intermediary between the app and WooCommerce CMS and our various other data sources. This gateway is built using NestJS, Swagger, Bull, Redis and integrates with a few AWS services (namely DynamoDB, SNS, CloudWatch), and is deployed to AWS ECS as a Docker container."
         },
         {
-            "id": 8,
-            "title": "Access Earth",
-            "subtitle": "Know more. Do more. Live more.",
-            "category": "App",
-            "link": "http://access.earth",
-            "iconUrl": "assets/img/access_earth_icon.png",
-            "bannerUrl": "assets/img/access_earth_1.png",
-            "body": [{
-                    "type": "text",
-                    "content": "The goal of Access Earth is to provide accessibility information for locations around the globe. The service is a platform for users to share and upload accessibility information, crowd-sourced and crowd-verified. "
-                },
-                {
-                    "type": "video",
-                    "sourceUrl": "assets/img/access_earth_demo.mp4",
-                    "bannerUrl": "assets/img/access_earth_promo.jpg"
-                },
-                {
-                    "type": "text",
-                    "content": "We entered the app and service into Microsoft's Imagine Cup in 2014. We built it in initially in jQuery and Cordova, and a second version was built in WinJS with Windows 8 Metro inspired design. It featured Cortana voice assistant support, allowing the user to add accessibility information using only their voice."
-                },
-                {
-                    "type": "image",
-                    "sourceUrl": "assets/img/access_earth_win.jpg"
-                },
-                {
-                    "type": "text",
-                    "content": "We came 3rd Place Worldwide in the Citizenship Category. The service is still live and developing to this day (without my involvement), and has secured regular investment. "
-                },
-                {
-                    "type": "text",
-                    "content": "Please check out the latest version on iOS, Android and the web."
-                },
-                {
-                    "type": "summary"
-                }
-            ]
+          "type": "text",
+          "content": "It is was initially released in August 2021, and is continually being updated."
         },
         {
-            "id": 11,
-            "title": "GameDevelopers.ie",
-            "subtitle": "Supporting local game developers",
-            "category": "Web",
-            "bannerUrl": "assets/img/gamedevelopers.png",
-            "body": [{
-                    "type": "text",
-                    "content": "GameDevelopers.ie is a volunteer-run portal for developers in the video game industry in Ireland. It offers visitors the latest news and stories from the national game development scene, with guest posts from many of the developers in Ireland."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/gamedevelopers_screenshot.png",
-                    "content": "The site has been active for over a decade and contains a large library of articles"
-                },
-                {
-                    "type": "text",
-                    "content": "I currently volunteer and support the team with technical assistance. The website was a legacy Wordpress installation with many plugins added over time to add functionality. My work involves upgrading the website whilst maintaining compatibility, investigating new features that would assist the writing team, and support in event of an issue."
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "title": "IBM Citizen Collaboration",
-            "subtitle": "Enabling citizens to assist local governments",
-            "category": "App",
-            "bannerUrl": "assets/img/coplink.jpg",
-            "body": [{
-                    "type": "text",
-                    "content": "The IBM Intelligent Operations Center for Citizen Collaboration application is designed to improve communication between cities and their citizens about non-emergency city matters. IBM Intelligent Operations Center for Citizen Collaboration supports a rich set of communication channels, providing citizens with anywhere or anytime access to their channels of choice."
-                },
-                {
-                    "type": "text",
-                    "content": "The app was built in IBM Worklight, a set of tools that provided push notifications,federated identity management and CLI tools. The underlying frontend framework was an extension of Dojo, which allowed use of libraries developed across IBM. I developed features such as photo uploading, image galleries and customisable user profiles."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/ibm_citizen_collab.jpg",
-                    "content": "IBM Worklight was later rebranded as IBM MobileFirst"
-                },
-                {
-                    "type": "text",
-                    "content": "I worked on the Citizen Collaboration app as the lead developer for 6 months until the project was cancelled."
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "title": "IBM Intelligent Operations Center",
-            "subtitle": "Providing Operational Insight",
-            "category": "Enterprise",
-            "link": "https://www.ibm.com/uk-en/marketplace/city-insights",
-            "bannerUrl": "assets/img/ioc.png",
-            "body": [{
-                    "type": "text",
-                    "content": "The IBM Intelligent Operations Center provided city officials with a tool that offered data visualisation, deep analytics and real time collaboration. This allowed them to plan for growth, prepare for problems, and coordinate and manage response efforts."
-                },
-                {
-                    "type": "youtube",
-                    "sourceUrl": "https://www.youtube.com/embed/wmgRSW0DwVY"
-                },
-                {
-                    "type": "text",
-                    "content": "The IOC is built on a stack of Dojo, Java EE and IBM Websphere. I worked across the full stack, building new UI elements and working on business logic such as integrating with a SMS/email notification system. "
-                },
-                {
-                    "type": "text",
-                    "content": "The application was architected to be very extendable, and was used as the basis for numerous other applictions in the Safer Planet Group. I built a prototype based on it that tracked police officers vital signs(with data pulled from the Apple Watch) and provided a high level visualisation for the control center team. This prototype was demoed at the IBM i2 Global Summit 2016."
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Oracle Worldwide Product Translation Group",
-            "subtitle": "Providing i18n for the Oracle Suite",
-            "category": "QA",
-            "cardType": "banner",
-            "bannerUrl": "assets/img/oracle.png",
-            "body": [{
-                    "type": "text",
-                    "content": "Oracle has a wide array of products on the market built by teams all around the globe. The <strong>Worldwide Product Translation Group</strong> was set up to optimise translation efforts across the company. This was achieved through an application called HyperHUB, that identified where to reuse existing translations and suggested new strings. This massively cut down on localisation costs for the company, with savings in the millions."
-                },
-                {
-                    "type": "text",
-                    "content": "I provided QA for HyperHUB and the various supporting tools. This involved developing Perl scripts for automated testing, manual testing, writing test cases and working with the development team to maintain quality in the product. I also carried out full compatibility testing in Windows 8 "
-                },
-                {
-                    "type": "text",
-                    "content": "I worked here for a 13-month internship between my university studies. For my efforts, I was nominated for the WPTG Student of the Year internal award."
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "title": "Donegal Websites",
-            "subtitle": "Building for local businesses",
-            "category": "Web",
-            "bannerUrl": "assets/img/donegal_websites.jpg",
-            "body": [{
-                    "type": "text",
-                    "content": "Donegal Websites was a local business providing web solutions for small to medium businesses in County Donegal, Ireland. We provided solutions that ranged from simple brochure sites to full e-commerce solutions."
-                },
-                {
-                    "type": "screenshot",
-                    "sourceUrl": "assets/img/donegal_websites_screenshot.png",
-                    "content": "We developed sites for many local sports clubs, including my local GAA team."
-                },
-                {
-                    "type": "text",
-                    "content": "I worked across the full-stack during my time at Donegal Websites. We mainly worked in a LAMP(Linux, Apache, MySQL, PHP) environment, using Wordpress as the foundation of many of our sites, however we offered many custom solutions tailored to each clients needs. Hosting was also provided, which we handled directly."
-                }
-            ]
+          "type": "summary"
         }
-    ]
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Clinical Noting",
+      "subtitle": "Towards a paperless future",
+      "category": "App",
+      "iconUrl": "assets/img/clinical_noting_icon.png",
+      "link": "http://www.imsmaxims.com",
+      "bannerUrl": "assets/img/clinical_noting.jpg",
+      "cardType": "banner-top",
+      "body": [
+        {
+          "type": "text",
+          "content": "The Clinical Noting app is a web application designed to assist clinicians with note taking during patient appointments. It is launched from IMS MAXIMS, the main enterprise offering from IMS, and also provided wrapped through Capacitor as a standalone iOS, Android and web application in the near future. Through a series of WebSockets connections and app deeplinking, the user can move seamlessly between our suite of applications, safely maintaining and validating patient in context for clinical safety."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/clinical_noting_screenshot.png",
+          "content": "Clinicians can record various types of information for an appointment"
+        },
+        {
+          "type": "text",
+          "content": "It is built in Angular 8, using Angular Material components, with state management being handled by NGRX. It takes advantages of the latest Angular and NGRX features, such as using the Ivy renderer, taking advantage of NGRX's new factory framework to make generic reducers/actions/selectors, and using the latest Angular CDK."
+        },
+        {
+          "type": "text",
+          "content": "It was released in October 2020 and is updated regularly at present. "
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "mHealth",
+      "subtitle": "Assisting our nurses and clinicians",
+      "category": "App",
+      "iconUrl": "assets/img/mhealth_icon.png",
+      "link": "http://www.imsmaxims.com",
+      "body": [
+        {
+          "type": "text",
+          "content": "mHealth (Mobile Health) is a iOS, Android and Web application designed to aid clinicians and nursing with patient management. It allows the users to do a plethora of tasks, including record vital signs for a patient, do bed management, discharge planning, managing surgical theatres and much more."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/mhealth_ipad.png",
+          "content": "Our Patient Bedside View gives a high-level view of the patient's care"
+        },
+        {
+          "type": "text",
+          "content": "I led development on this app for over 4.5 years with a team of 5 UI engineers, taking it from the R&D stage to production. I contributed to the development, design, deployment and planning."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/mhealth_demo.mp4",
+          "content": "Recording vital signs is just one of the many features available"
+        },
+        {
+          "type": "text",
+          "content": "Originally developed in AngularJS and Ionic, and migrated to Angular 5 and Ionic 3 by myself, the app makes extensive use of RxJS (ReactiveX), following an event driven programming model. IMS MAXIMS, the company's main enterprise offering, offers a REST API which we used to populate data."
+        },
+        {
+          "type": "text",
+          "content": "It is currently live in Taunton & Somerset NHS Foundation Trust, as well as Wye Valley NHS Trust. Check out a video from Taunton here: "
+        },
+        {
+          "type": "video",
+          "sourceUrl": "assets/img/mhealth_taunton.mp4"
+        },
+        {
+          "type": "summary"
+        }
+      ],
+      "bannerUrl": "assets/img/mhealth.mp4"
+    },
+    {
+      "id": 2,
+      "title": "We Can Help",
+      "subtitle": "Providing a helping hand when needed",
+      "category": "App",
+      "iconUrl": "assets/img/wecanhelp_icon.png",
+      "link": "http://jackgallagher.ie/WeCanHelp",
+      "bannerUrl": "assets/img/wecanhelp.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "We Can Help was a iOS and Android app built for as a pitch to the HSE (Health Service Executive of Ireland) for giving people easy access to various health and safety services available in Ireland. It was an Ionic 3 / Angular 5 app that took advantage of Google Maps API, text-to-speech for  an accident and emergency feature, and SMS integration."
+        },
+        {
+          "type": "screenshot",
+          "content": "It was designed to be approachable to a wide audience",
+          "sourceUrl": "assets/img/wecanhelp_animated.mp4"
+        },
+        {
+          "type": "text",
+          "content": "Ultimately, the pitch was unsuccessful due to a lack of funding, however the aesthetic design was used in an alternative informational sticker campaign. These are currently located in many public places throughout the north-west of Ireland."
+        },
+        {
+          "type": "image",
+          "sourceUrl": "assets/img/wecanhelp_sticker.jpg"
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "IBM Coplink",
+      "subtitle": "Facilitating Law Enforcement",
+      "category": "App",
+      "iconUrl": "assets/img/coplink_icon.jpg",
+      "bannerUrl": "assets/img/coplink.mp4",
+      "cardType": "banner",
+      "link": "https://apkpure.com/ibm-coplink/com.ibm.i2.coplink",
+      "body": [
+        {
+          "type": "text",
+          "content": "IBM Coplink is an app to assist law enforcement officers while on the move. It is a iOS and Android application that allows the user to search the Coplink database to find people, vehicles, objects, organisations and relationships. The user can also use a map screen to find the same results for situational awareness. "
+        },
+        {
+          "type": "image",
+          "sourceUrl": "assets/img/coplink_search.jpg"
+        },
+        {
+          "type": "text",
+          "content": "I led development on the Android app, built natively with no specific framework, and ported over from an IBM Worklight hybrid app. Developments included using the Google Maps API for the situational awareness feature, building the search screens generically to minimise duplicated UI elements and logic, and using the native camera APIs to facilitate server-side facial recognition."
+        },
+        {
+          "type": "screenshot",
+          "content": "Working primarily on the Android app, I got extensive experience in native Android APIs",
+          "sourceUrl": "assets/img/coplink_login.jpg"
+        },
+        {
+          "type": "text",
+          "content": "It was live in the San Bernardino Police Department, and was used by officers in the event which kicked off one of the <a href='https://www.npr.org/sections/alltechconsidered/2016/12/03/504130977/a-year-after-san-bernardino-and-apple-fbi-where-are-we-on-encryption'>highest profile tech stories of 2016</a> (Apple - FBI Encryption Dispute)."
+        },
+        {
+          "type": "youtube",
+          "content": "Coplink in action",
+          "sourceUrl": "https://www.youtube.com/embed/-MEqDy_a4v4?controls=0"
+        },
+        {
+          "type": "text",
+          "content": "It has since been removed from the App Store but is available on mirrors. "
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Access Earth",
+      "subtitle": "Know more. Do more. Live more.",
+      "category": "App",
+      "link": "http://access.earth",
+      "iconUrl": "assets/img/access_earth_icon.png",
+      "bannerUrl": "assets/img/access_earth_1.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "The goal of Access Earth is to provide accessibility information for locations around the globe. The service is a platform for users to share and upload accessibility information, crowd-sourced and crowd-verified. "
+        },
+        {
+          "type": "video",
+          "sourceUrl": "assets/img/access_earth_demo.mp4",
+          "bannerUrl": "assets/img/access_earth_promo.jpg"
+        },
+        {
+          "type": "text",
+          "content": "We entered the app and service into Microsoft's Imagine Cup in 2014. We built it in initially in jQuery and Cordova, and a second version was built in WinJS with Windows 8 Metro inspired design. It featured Cortana voice assistant support, allowing the user to add accessibility information using only their voice."
+        },
+        {
+          "type": "image",
+          "sourceUrl": "assets/img/access_earth_win.jpg"
+        },
+        {
+          "type": "text",
+          "content": "We came 3rd Place Worldwide in the Citizenship Category. The service is still live and developing to this day (without my involvement), and has secured regular investment. "
+        },
+        {
+          "type": "text",
+          "content": "Please check out the latest version on iOS, Android and the web."
+        },
+        {
+          "type": "summary"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "GameDevelopers.ie",
+      "subtitle": "Supporting local game developers",
+      "category": "Web",
+      "bannerUrl": "assets/img/gamedevelopers.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "GameDevelopers.ie is a volunteer-run portal for developers in the video game industry in Ireland. It offers visitors the latest news and stories from the national game development scene, with guest posts from many of the developers in Ireland."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/gamedevelopers_screenshot.png",
+          "content": "The site has been active for over a decade and contains a large library of articles"
+        },
+        {
+          "type": "text",
+          "content": "I currently volunteer and support the team with technical assistance. The website was a legacy Wordpress installation with many plugins added over time to add functionality. My work involves upgrading the website whilst maintaining compatibility, investigating new features that would assist the writing team, and support in event of an issue."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "IBM Citizen Collaboration",
+      "subtitle": "Enabling citizens to assist local governments",
+      "category": "App",
+      "bannerUrl": "assets/img/coplink.jpg",
+      "body": [
+        {
+          "type": "text",
+          "content": "The IBM Intelligent Operations Center for Citizen Collaboration application is designed to improve communication between cities and their citizens about non-emergency city matters. IBM Intelligent Operations Center for Citizen Collaboration supports a rich set of communication channels, providing citizens with anywhere or anytime access to their channels of choice."
+        },
+        {
+          "type": "text",
+          "content": "The app was built in IBM Worklight, a set of tools that provided push notifications, federated identity management and CLI tools. The underlying frontend framework was an extension of Dojo, which allowed use of libraries developed across IBM. I developed features such as photo uploading, image galleries and customisable user profiles."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/ibm_citizen_collab.jpg",
+          "content": "IBM Worklight was later rebranded as IBM MobileFirst"
+        },
+        {
+          "type": "text",
+          "content": "I worked on the Citizen Collaboration app as the lead developer for 6 months until the project was cancelled."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "IBM Intelligent Operations Center",
+      "subtitle": "Providing Operational Insight",
+      "category": "Enterprise",
+      "link": "https://www.ibm.com/uk-en/marketplace/city-insights",
+      "bannerUrl": "assets/img/ioc.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "The IBM Intelligent Operations Center provided city officials with a tool that offered data visualisation, deep analytics and real time collaboration. This allowed them to plan for growth, prepare for problems, and coordinate and manage response efforts."
+        },
+        {
+          "type": "youtube",
+          "sourceUrl": "https://www.youtube.com/embed/sBZLgLrsgBk?si=A9LwGyR4T7aDk_JC?controls=0"
+        },
+        {
+          "type": "text",
+          "content": "The IOC is built on a stack of Dojo, Java EE and IBM Websphere. I worked across the full stack, building new UI elements and working on business logic such as integrating with a SMS/email notification system. "
+        },
+        {
+          "type": "text",
+          "content": "The application was architected to be very extendable, and was used as the basis for numerous other applictions in the Safer Planet Group. I built a prototype based on it that tracked police officers vital signs(with data pulled from the Apple Watch) and provided a high level visualisation for the control center team. This prototype was demoed at the IBM i2 Global Summit 2016."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Oracle Worldwide Product Translation Group",
+      "subtitle": "Providing i18n for the Oracle Suite",
+      "category": "QA",
+      "cardType": "banner",
+      "bannerUrl": "assets/img/oracle.png",
+      "body": [
+        {
+          "type": "text",
+          "content": "Oracle has a wide array of products on the market built by teams all around the globe. The <strong>Worldwide Product Translation Group</strong> was set up to optimise translation efforts across the company. This was achieved through an application called HyperHUB, that identified where to reuse existing translations and suggested new strings. This massively cut down on localisation costs for the company, with savings in the millions."
+        },
+        {
+          "type": "text",
+          "content": "I provided QA for HyperHUB and the various supporting tools. This involved developing Perl scripts for automated testing, manual testing, writing test cases and working with the development team to maintain quality in the product. I also carried out full compatibility testing in Windows 8 "
+        },
+        {
+          "type": "text",
+          "content": "I worked here for a 13-month internship between my university studies. For my efforts, I was nominated for the WPTG Student of the Year internal award."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Donegal Websites",
+      "subtitle": "Building for local businesses",
+      "category": "Web",
+      "bannerUrl": "assets/img/donegal_websites.jpg",
+      "body": [
+        {
+          "type": "text",
+          "content": "Donegal Websites was a local business providing web solutions for small to medium businesses in County Donegal, Ireland. We provided solutions that ranged from simple brochure sites to full e-commerce solutions."
+        },
+        {
+          "type": "screenshot",
+          "sourceUrl": "assets/img/donegal_websites_screenshot.png",
+          "content": "We developed sites for many local sports clubs, including my local GAA team."
+        },
+        {
+          "type": "text",
+          "content": "I worked across the full-stack during my time at Donegal Websites. We mainly worked in a LAMP(Linux, Apache, MySQL, PHP) environment, using Wordpress as the foundation of many of our sites, however we offered many custom solutions tailored to each clients needs. Hosting was also provided, which we handled directly."
+        }
+      ]
+    }
+  ]
 }
